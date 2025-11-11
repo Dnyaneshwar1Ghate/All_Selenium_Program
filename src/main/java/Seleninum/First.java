@@ -8,8 +8,11 @@ public class First {
 	public static void main(String[] args) {
 
 		WebDriver driver =new ChromeDriver();
-		driver.get("https://www.demoqa.com");
-		
+		driver.get("https://demoqa.com");
+		driver.manage().window().maximize();
+		System.out.println(driver.getCurrentUrl());
+		System.out.println(driver.getTitle());
+		System.out.println(driver.getPageSource());
 	}
 
 }
