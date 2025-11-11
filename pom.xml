@@ -3,4 +3,15 @@
   <groupId>All_Selenium_Program</groupId>
   <artifactId>All_Selenium_Program</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  
+  
+  <dependencies>
+    <!-- Selenium Java dependency -->
+    <dependency>
+        <groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>selenium-java</artifactId>
+        <version>4.25.0</version>
+    </dependency>
+</dependencies>
+
 </project>
